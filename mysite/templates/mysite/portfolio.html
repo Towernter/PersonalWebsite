@@ -1,0 +1,48 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container" style="margin-top: 80px">
+        <div class="card-deck">
+            <div class="card">
+                <img src="{% static 'mysite/images/android.jpg' %}" class="card-img-top" height="160" width="60"
+                     alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Android Development</h5>
+                    <p class="card-text">I want the world to get a feel and touch of what i make, but i am too cool to
+                        upload my Apps on PlayStore cause i hate playing.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Eight bytes walk into a bar. The bartender asks, “Can I get you
+                            anything?” “Yeah,” reply the bytes. “Make us a double.”
+                        </small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'mysite/images/back.png' %}" class="card-img-top" height="160" width="60" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">I do this when i am bored. Thank something that disgusted me. Here you are now
+                        </p>
+                    <p class="card-text">
+                        <small class="text-muted">Q: Why does no one like jokes about descriptions, keywords, or
+                            character encodings?
+                            A: They’re too ‘meta’.
+                        </small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'mysite/images/data.png' %}" height="160" width="60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Data Science</h5>
+                    <p class="card-text">After writing a few computer programs i thought i was cool until i was
+                        introduced to machine learning. Computers can learn on their own hey. Cool isn't it. But they
+                        need some humans to teach them how to do it and i am one of them.</p>
+                    <p class="card-text">
+                        <small class="text-muted">YOLO: You Only Learn Once</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
